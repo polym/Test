@@ -49,6 +49,6 @@ int main(){
 		int len = strlen(cnt);
 		if(len == 0) continue;
 		convert();
-		cout << gao() << endl;
+		cout << gao() << endl; 
 	}
 }
