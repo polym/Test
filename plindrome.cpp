@@ -34,7 +34,7 @@ int gao(){
 			p[i] = 1;
 		}
 		for(; tmp[i+p[i]] == tmp[i - p[i]]; p[i]++);
-		if(p[i] + i > mx){
+		if(p[i] + i > mx){ 
 			mx = p[i] + i; id = i;
 		}
 	}
