@@ -49,8 +49,9 @@ void hashInit(char* ch, ull* sum , ull* rsum = NULL){
 	for(int i = 1; i <= len; i++){
 		sum[i] = sum[i-1] * factor + (ull)ch[i];
 	}
-	rsum[0] = 0;
+	
 	if(rsum != NULL){
+		rsum[0] = 0;
 		for(int i = len; i >= 1; i--){
 			rsum[len-i+1] = rsum[len-i] * factor + (ull)ch[i];
 		}
