@@ -6,7 +6,7 @@ for i in $path1/*.*
 do
     for j in $path2/*.*
     do
-        if [ "${j#*.}" = ${i#*.} ]
+        if [ "${j#*.}" = "${i#*.}" ]
         then   diff $i $j
         fi
     done
