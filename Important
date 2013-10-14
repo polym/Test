@@ -3,6 +3,7 @@ update all_mobile_head set operator_id = 5 where  number_head = '189'
 update all_mobile_head set operator_id = 5 where  number_head = '133' 
 
 update all_mobile_head set operator_id = 5 where  number_head = '180'
+update all_mobile_head set operator_id = 5 where  number_head = '181'
 
 
 
